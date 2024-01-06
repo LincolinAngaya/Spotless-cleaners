@@ -1,5 +1,7 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; 
+
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { AiOutlineMail, AiOutlinePhone, AiOutlineEnvironment, AiOutlineClockCircle } from 'react-icons/ai';
 import Footer from '../Footer/Footer';
 const Contact = () => {
@@ -56,17 +58,17 @@ const Contact = () => {
             </div>
             <div className='bg-navy text-white flex-1 p-4 mt-4 rounded-md'>
   <p className='text-center text-2xl font-bold mb-2'>Info</p>
-  <a href='mailto:spotlessgurucleaners@gmail.com' className='flex items-center justify-center text-xl mb-2'>
+  <Link to='mailto:spotlessgurucleaners@gmail.com' className='flex items-center justify-center text-xl mb-2'>
     <AiOutlineMail className='mr-2' /> spotlessgurucleaners
-  </a>
+  </Link>
 
-  <a href='tel:+254713248802' className='flex items-center justify-center text-xl mb-2'>
+  <Link to='tel:+254713248802' className='flex items-center justify-center text-xl mb-2'>
     <AiOutlinePhone className='mr-2' /> +254713248802
-  </a>
+  </Link>
 
-  <a href='https://maps.google.com/?q=Karen,Nairobi' target='_blank' rel='noopener noreferrer' className='flex items-center justify-center text-xl mb-2'>
+  <Link to='https://maps.google.com/?q=Karen,Nairobi' target='_blank' rel='noopener noreferrer' className='flex items-center justify-center text-xl mb-2'>
     <AiOutlineEnvironment className='mr-2'/> Nairobi, Kenya
-  </a>
+  </Link>
 
   <p className='flex items-center justify-center text-xl'>
     <AiOutlineClockCircle className='mr-2'/> 7:00 a.m - 6:00 p.m
@@ -74,26 +76,22 @@ const Contact = () => {
 
   {/* Social Media Icons */}
   <div className='flex items-center justify-center mt-4'>
-    <a href="#facebook" className='text-white mr-4 p-2 cursor-pointer inline-flex items-center
+    <Link to="#facebook" className='text-white mr-4 p-2 cursor-pointer inline-flex items-center
       rounded-full mx-2.5 text-2xl hover:text-white hover:hover:text-sky
       duration-300' target="_blank" rel="noopener noreferrer">
       <FaFacebook size={20} />
-    </a>
-    <a href="#twitter" className='text-white mr-4 p-2 cursor-pointer inline-flex items-center
+    </Link>
+    <Link to="#twitter" className='text-white mr-4 p-2 cursor-pointer inline-flex items-center
       rounded-full mx-2.5 text-2xl hover:text-white hover:hover:text-sky
       duration-300' target="_blank" rel="noopener noreferrer">
       <FaTwitter size={20} />
-    </a>
-    <a href="#instagram" className='text-white mr-4 p-2 cursor-pointer inline-flex items-center
+    </Link>
+    <Link to="#instagram" className='text-white mr-4 p-2 cursor-pointer inline-flex items-center
       rounded-full mx-2.5 text-2xl hover:text-white hover:hover:text-sky
       duration-300' target="_blank" rel="noopener noreferrer">
       <FaInstagram size={20} />
-    </a>
-    <a href="#linkedin" className='text-white p-2 cursor-pointer inline-flex items-center
-      rounded-full mx-2.5 text-2xl hover:text-white hover:hover:text-sky
-      duration-300' target="_blank" rel="noopener noreferrer">
-      <FaLinkedin size={20} />
-    </a>
+    </Link>
+   
   </div>
 </div>
 
