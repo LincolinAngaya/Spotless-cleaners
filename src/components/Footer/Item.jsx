@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom'; 
 
 const Item = ({ Links, title }) => {
   return (
@@ -9,11 +9,11 @@ const Item = ({ Links, title }) => {
             {Links.map((link) => (
               <li key={link.name}>
   
-        <a className="text-white hover:text-sky duration-300 font-sans cursor-pointer" href={link.link}> 
+        <Link className="text-white hover:text-sky duration-300 font-sans cursor-pointer" to={link.link}> 
           <div className="text-left text-xl"><ion-icon   name={link.namee}></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;{link.contacts}</div>
            {link.name}
         
-</a>
+</Link>
           
         </li>
       ))}

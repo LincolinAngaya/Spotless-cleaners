@@ -1,13 +1,14 @@
 import React from "react";
 
 
+
 const SocialIcons = ({ Icons }) => {
   return (
     <div>
       {Icons.map((icon) => (
         <span
           key={icon.name}
-          href={icon.link}  // Add a link property to each icon object
+          to={icon.link}  // Add a link property to each icon object
           target="_blank"
           rel="noopener noreferrer"
           className="p-3  cursor-pointer inline-flex items-center

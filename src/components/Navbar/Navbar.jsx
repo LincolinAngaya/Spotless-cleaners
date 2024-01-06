@@ -134,11 +134,11 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="md:hidden flex items-center gap-6">
+          <div className="md:hidden flex items-center gap-6 ml-4 p-3">
             <ion-icon
               onClick={toggleMenu}
               name={isMenuOpen ? 'close' : 'menu'}
-              className="text-3xl cursor-pointer"
+              className="text-5xl   cursor-pointer"
             ></ion-icon>
           </div>
         </nav>
