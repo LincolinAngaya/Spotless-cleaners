@@ -8,7 +8,7 @@ const SocialIcons = ({ Icons }) => {
       {Icons.map((icon) => (
         <span
           key={icon.name}
-          to={icon.link}  // Add a link property to each icon object
+          href={icon.link}  // Add a link property to each icon object
           target="_blank"
           rel="noopener noreferrer"
           className="p-3  cursor-pointer inline-flex items-center

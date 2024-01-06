@@ -134,7 +134,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="md:hidden flex items-center gap-6 ml-4 p-3">
+          <div className="md:hidden flex items-center gap-6">
             <ion-icon
               onClick={toggleMenu}
               name={isMenuOpen ? 'close' : 'menu'}
