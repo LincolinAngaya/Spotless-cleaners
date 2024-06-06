@@ -96,6 +96,13 @@ const Navbar = () => {
     >
       PostConstruction
     </Link>
+    <Link
+      onClick={closeMenu}
+      to="services/gardening"
+      className="block px-4 py-2 text-lg text-bold text-white hover:text-customBlue hover:bg-sky"
+    >
+      Gardening
+    </Link>
       <Link
         onClick={closeMenu}
         to="services/dishwashing"
