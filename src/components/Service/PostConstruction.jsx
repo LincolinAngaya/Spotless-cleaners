@@ -24,17 +24,15 @@ function PostConstruction() {
     </div>   
     <div className='flex flex-col lg:flex-row mx-10 space-x-5 lg:space-x-9 py-8'>
       
-    <img src={kitchen}  className='rounded-r-lg' height="400" width="500" alt='dish washing' />
+    <img src={kitchen}  className='rounded-r-lg' height="400" width="500" alt='post construction' />
       <div>
-      <h1 className='font-bold font-signature text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl mt-3 text-customBlue'>Kitchen Cleaning</h1>
+      <h1 className='font-bold font-signature text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl mt-3 text-customBlue'>Initial Cleaning (Rough Cleaning)</h1>
       <ul className='p-3  text-gray-500 font-poppins lg:font-sans text-lg'>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Clean microwave, induction, and fridge (inside & out)</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Wipe small appliances and items on countertops</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Sanitize sink and polish faucet</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Clean/polish all appliance exteriors</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Dust light fixtures (using a 2-step stool)</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Remove trash and replace the bag</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Vacuum and mop kitchen floor</li>
+
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Debris Removal: Clear large debris, leftover materials, and trash</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Sweeping and Vacuuming: Remove dust and dirt from floors, walls, and surfaces.</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Dust Removal: Eliminate dust from surfaces, light fixtures, vents, and exposed ductwork.</li>
+
       </ul>
       <Link to="/booking" className='bg-customBlue text-white text-base px-6 py-2 rounded-md m-4  hover:bg-sky hover:text-customBlue cursor-pointer' type="button">
        Book Now
@@ -44,16 +42,19 @@ function PostConstruction() {
 
      <div className='flex flex-col lg:flex-row mx-10 space-x-5 lg:space-x-8 py-8'>
       <div>
-      <h1 className='font-bold font-signature text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl  text-customBlue'>Bathroom Cleaning</h1>
+      <h1 className='font-bold font-signature text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl  text-customBlue'> Detailed Cleaning (Final Cleaning)</h1>
       
       <ul className='p-3  text-gray-500 font-poppins lg:font-sans text-lg'>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Shower scrubbed</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Clean shower door</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Disinfect toilet and toilet area</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Mirrors cleaned (streak-free)</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Sink cleaned and faucet polished</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Vacuum bathroom rugs or shake</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Clean and disinfect bathroom floors</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Tile and Grout Cleaning.</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span> Vacuum and deep clean carpets to remove  residues.</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Hardwood/Hard Floor Cleaning.</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Dusting and Wiping counters, shelves, and cabinetry.</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Cleaning Windows and Frames.</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Sanitizing Countertops.</li> 
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span> Clean the exterior and interior of appliances.</li> 
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Polishing Mirrors and Glass</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Cleaning Air Vents and Ducts
+      </li>
     </ul>
     <Link to="/booking" className='bg-customBlue text-white text-base px-6 py-2 rounded-md m-4  hover:bg-sky hover:text-customBlue cursor-pointer' type="button">
        Book Now
@@ -69,17 +70,12 @@ function PostConstruction() {
      
 <img src={room}  className='rounded-r-lg' height="400" width="500" alt='dish washing' />
       <div>
-      <h1 className='font-bold font-signature text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl mt-3 text-customBlue'>All Rooms</h1>
+      <h1 className='font-bold font-signature text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl mt-3 text-customBlue'> Touch-Up Cleaning (Ongoing or After Inspections)</h1>
       <ul className='p-3  text-gray-500 font-poppins lg:font-sans text-lg'>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Electronics Dusting and Cleaning etc.</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Dust all furniture</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Vacuum all floors & mop hard surface floors</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Surface Wiping and Disinfecting</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Window Cleaning</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Dust light fixtures and wall art</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Wash light switches and doorknobs</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Odor Elimination</li>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Dust and spot clean doors and door frames</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Spot Cleaning: Address missed spots or new messes after initial cleaning.</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Dust Control: Re-dust surfaces to keep them dust-free until occupancy.</li>
+      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Polishing and Buffing: Final touch-ups on floors and surfaces to maintain shine.</li>
+
       </ul>
       <Link to="/booking" className='bg-customBlue text-white text-base px-6 py-2 rounded-md m-4  hover:bg-sky hover:text-customBlue cursor-pointer' type="button">
       Book Now
