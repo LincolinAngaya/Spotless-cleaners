@@ -15,11 +15,11 @@ function PostConstruction() {
   </div>
 
   <div className='mx-10 mt-5'>
-  <h1 className=' text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl text-customBlue mt-[-0.5rem]'>Is your home in need of extra attention?</h1>
-  <p className='text-left text-gray-500 font-poppins lg:font-sans text-lg'>Spotless Guru house cleaning services are guaranteed to get your home gleaming clean! The best part is that you get to sit back and relax while we do the dirty work!</p>
+  <h1 className=' text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl text-customBlue mt-[-0.5rem]'>What Makes Spotless Guru the Best Choice for Post-Construction Cleaning?</h1>
+  <p className='text-left text-gray-500 font-poppins lg:font-sans text-lg'>We transform construction sites into pristine spaces with meticulous attention to detail and unparalleled expertise in post-construction cleaning. Trust Spotless Guru to make your new or renovated space spotless and ready for use!</p>
    
   <h1 className='font-bold font-signature mt-4 text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl text-customBlue'>
-  Our House Cleaning Includes
+  Our Post Construction Cleaning Includes
 </h1>
     </div>   
     <div className='flex flex-col lg:flex-row mx-10 space-x-5 lg:space-x-9 py-8'>
@@ -28,7 +28,6 @@ function PostConstruction() {
       <div>
       <h1 className='font-bold font-signature text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl mt-3 text-customBlue'>Kitchen Cleaning</h1>
       <ul className='p-3  text-gray-500 font-poppins lg:font-sans text-lg'>
-      <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Dust and spot clean cabinet exteriors</li>
       <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Clean microwave, induction, and fridge (inside & out)</li>
       <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Wipe small appliances and items on countertops</li>
       <li className='flex items-center'><span className='text-customBlue mr-2'> <FontAwesomeIcon icon={faCheckCircle} /> </span>Sanitize sink and polish faucet</li>
