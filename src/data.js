@@ -29,7 +29,7 @@ const people = [
     name: "Eve Nyaboke",
     title: "Langata-Karen",
     quote:
-      "Spotless Guru's hand washing service is a game-changer! No more laundry stress in the. Affordable, efficient, and my clothes have never looked better. After trying others that were expensive, I found a gem with Spotless Guru – cheaper and better than the rest!",
+      "Spotless Guru's gardening services5z service is a game-changer! No more laundry stress in the. Affordable, efficient, and my clothes have never looked better. After trying others that were expensive, I found a gem with Spotless Guru – cheaper and better than the rest!",
   },
 ];
 
