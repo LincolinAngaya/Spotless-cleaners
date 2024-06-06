@@ -14,6 +14,7 @@ import {
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import ContactForm from './components/Booking/ContactForm';
+import PostConstruction from './components/Service/PostConstruction';
 
 
 
@@ -27,6 +28,7 @@ function App() {
              <Routes>
              <Route exact path='/' element={<Home />}></Route>
               <Route exact path='services/housecleaning' element={<HouseCleaning />}></Route>
+              <Route exact path='services/postConstruction' element={<PostConstruction />}></Route>
               <Route exact path='services/dishwashing' element={<DishWashing/>}></Route>
               <Route exact path='services/handwashing' element={<HandWashing />}></Route>
               <Route exact path='testimonials' element={<Testimonial />}></Route>

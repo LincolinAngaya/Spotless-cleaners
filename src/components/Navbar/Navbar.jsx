@@ -90,6 +90,13 @@ const Navbar = () => {
         Housecleaning
       </Link>
       <Link
+      onClick={closeMenu}
+      to="services/postConstruction"
+      className="block px-4 py-2 text-lg text-bold text-white hover:text-customBlue hover:bg-sky"
+    >
+      PostConstruction
+    </Link>
+      <Link
         onClick={closeMenu}
         to="services/dishwashing"
         className="block px-4 py-2 text-lg text-bold text-white hover:text-customBlue hover:bg-sky"
